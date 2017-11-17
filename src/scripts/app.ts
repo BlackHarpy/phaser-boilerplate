@@ -5,6 +5,8 @@ import 'pixi'
 import 'p2'
 import 'phaser'
 
+const logoImage = require('assets/phaser.png')
+
 class SimpleGame {
 
     constructor() {
@@ -14,7 +16,7 @@ class SimpleGame {
     game: Phaser.Game;
 
     preload() {
-        this.game.load.image('logo', 'assets/phaser.png')
+        this.game.load.image('logo', logoImage)
     }
 
     create() {

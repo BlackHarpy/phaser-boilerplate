@@ -42,3 +42,4 @@ And to run a simple test for serving the index file
 
 * Path aliases
 * Expose Loader: To add modules as global entities.
+* Assets loader
